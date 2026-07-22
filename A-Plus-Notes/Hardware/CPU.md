@@ -3,7 +3,12 @@ Date studied: 7/17/26
 
 WHAT IT IS: Often referred to as the "brain" of a computer, it is the primary hardware component that processes instructions, performs calculations, and manages data flow across the system.
 
-WHAT IT DOES: The CPU serves as the central command center and primary engine for all system logic. It acts as the coordinator that bridges the gap between hardware and software. Without it, the computer cannot interpret inputs, run code, or pass data between components like the storage drive and the graphics card.
+WHAT IT DOES: 
+[What function does it serve in the computer?]
+The CPU serves as the central command center and primary engine for all system logic. It acts as the coordinator that bridges the gap between hardware and software. 
+
+[What would stop working without it?]
+Without it, the computer cannot interpret inputs, run code, or pass data between components like the storage drive and the graphics card.
 Everything stops working completely. Without a CPU, a computer cannot function at all.
 
 WHAT HAPPENS IF IT FAILS:
