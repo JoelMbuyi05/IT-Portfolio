@@ -88,26 +88,6 @@ Clearing CMOS fixes the issue and the system boots.
 Codes cycle rapidly and stall on a specific RAM/GPU check.
 CPU gets warm to the touch under the cooler after a few minutes.
 
-EXAM CONNECTIONS:
-[Which A+ domain does this fall under?]
-This troubleshooting falls directly under Domain 3.0: Hardware and Domain 5.0: Hardware and Network Troubleshooting (Core 1 / 220-1101 exam).
-Specifically, it targets:
-3.1 Explain basic cable types, features, and their purposes (CPU power cables).
-5.2 Given a scenario, troubleshoot problems related to motherboards, RAM, CPU, and power.
-
-[Common trick questions about this component]
-The Pin-Count Trap:
-The Trick: A question asks you to identify why an AMD AM4 CPU will not fit into an AM5 motherboard socket.
-The Reality: AMD switched from PGA (Pins on the Grid Array/processor) to LGA (Land Grid Array/pins on the motherboard) with AM5. AM5 has no pins on the CPU at all.
-
-The Overheating Myth: 
-The Trick: A scenario states a PC shuts down instantly (within 1 second) of pressing the power button. The choices blame a lack of thermal paste.
-The Reality: Modern CPUs can boot to BIOS even without thermal paste before overheating. Instant shutdown usually indicates a short circuit or a completely unplugged CPU power cable.
-
-Compatibility vs. Form Factor: 
-The Trick: A question asks if an Intel Core i7 processor will fit into an Intel LGA 1151 motherboard slot.
-The Reality: It fits physically, but it might not work. LGA 1151 supports both 6th/7th gen chips and 8th/9th gen chips, but they use different chipsets and are not cross-compatible. Physical fit does not equal electrical compatibility.
-
 INTERVIEW QUESTIONS:
 Q: A user presses the power button. Fans spin at maximum speed, but there is no display or POST. What do you check first? 
 A: I would check the motherboard’s Diagnostic LEDs or listen for POST beep codes. High fan speed usually indicates the motherboard is stuck in a pre-POST state, often because it cannot communicate with the CPU or RAM. I would then reset the CMOS to clear any bad configurations.

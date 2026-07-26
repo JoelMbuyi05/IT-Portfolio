@@ -34,10 +34,10 @@ DATA_BUS_ERROR
 CRITICAL_PROCESS_DIED
 
 If the PC cannot boot due to a RAM issue, the motherboard's internal speaker will emit specific warning beeps. Because different manufacturers use different codes, the exact pattern depends on your brand:
-Motherboard / Brand Beep Code Pattern        Meaning
-Dell                 2 Beeps or 4 Beeps      Memory not detected or memory failure
-HP                   3 Long, 2 Short Beeps   Memory/RAM error
-AMI BIOS             1, 2, or 3 Short Beeps  DRAM refresh or base memory failure
+Motherboard / Brand  Beep Code Pattern         Meaning
+Dell                 2 Beeps or 4 Beeps        Memory not detected or memory failure
+HP                   3 Long, 2 Short Beeps     Memory/RAM error
+AMI BIOS             1, 2, or 3 Short Beeps    DRAM refresh or base memory failure
 Award / Phoenix      Endlessly Repeating Beeps Severe RAM problem or memory error
 
 [Does the PC still boot? Partially or not at all?]
@@ -91,15 +91,6 @@ POST Card (Diagnostic Card): A PCI-e card that displays error codes. Look for me
 [How do you confirm it's dead vs just misconfigured?]
 Dead RAM: The PC crashes instantly on boot, throws beep codes, or a specific RAM stick causes crashes in every motherboard slot it is placed in.
 Misconfigured RAM: The PC boots, but Windows Task Manager shows it running at a very slow speed (e.g., 2133 MHz instead of 3200 MHz). This happens because XMP/EXPO (overclocking profiles) is turned off in the BIOS, or the RAM voltage is set too low.
-
-EXAM CONNECTIONS:
-[Which A+ domain does this fall under?]
-This falls directly under Domain 3.0: Hardware (specifically under Objective 3.2: Given a scenario, install and configure system memory and Objective 3.4: Given a scenario, troubleshoot problems related to motherboards, RAM, CPU, and power).
-
-[Common trick questions about this component]
-The "Shared Memory" Trap: A question asks why a PC with 8 GB of RAM only shows 7.5 GB available in Windows. The Trick: The RAM isn't broken; the integrated CPU graphics are "stealing" 512 MB of system RAM for video memory.
-The "Lowest Denominator" Trick: You install a 3200 MHz stick next to a 2400 MHz stick. The question asks what speed the system will run at. The Trick: The motherboard forces all RAM to run at the speed of the slowest stick (2400 MHz).
-The "32-bit Limit": A user installs 16 GB of RAM, but the OS only sees 4 GB. The Trick: The user is running a 32-bit operating system, which has a hard limit of 4 GB. You must upgrade to a 64-bit OS.
 
 INTERVIEW QUESTIONS:
 Q: A user reports their computer is suddenly rebooting randomly throughout the day. How do you rule out the RAM?
