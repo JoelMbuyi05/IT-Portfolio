@@ -1,4 +1,4 @@
-# Clear Windows Print Spooler Queue
+# [Clear Windows Print Spooler Queue]
 
 net stop spooler : Stops the Windows Print Spooler service
 del /Q /F /S "%systemroot%\System32\spool\PRINTERS\*.*" : Deletes the queued print-job files
@@ -16,6 +16,25 @@ When a printer is stuck on "Printing," "Deleting," "Pending," or jobs won't clea
 Run as an Admin
 
 ## Quick Reference: Stop Spooler → Clear Queue → Start Spooler
+
+
+# [Wi-Fi Troubleshooting]
+
+1. Wi-Fi ON + correct network
+2. Forget → reconnect
+3. Troubleshooter
+4. Delete Wi-Fi profile:
+   netsh wlan delete profile name="WiFi_Name"
+5. Renew IP:
+   ipconfig /release
+   ipconfig /renew
+6. Flush DNS:
+   ipconfig /flushdns
+7. Reset TCP/IP:
+   netsh int ip reset
+   → Restart
+8. Check/update Wi-Fi driver
+9. Test other devices → isolate PC vs network
 
 
 
