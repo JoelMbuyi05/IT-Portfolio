@@ -37,4 +37,37 @@ Run as an Admin
 9. Test other devices → isolate PC vs network
 
 
+# [Network Review & Troubleshooting]
 
+[ BASIC CONNECTIVITY ]
+
+ping 127.0.0.1
+→ Tests local TCP/IP stack.
+→ Fails = TCP/IP / adapter issue.
+
+ipconfig /all
+→ View IP, subnet, gateway, DNS, DHCP.
+
+ping <Default-Gateway>
+→ Tests local network/router.
+→ Fails = adapter / cable / switch / router.
+
+ping 8.8.8.8
+→ Tests Internet connectivity by IP.
+→ Fails = router / ISP / Internet issue.
+
+ping google.com
+→ Tests DNS + Internet.
+→ 8.8.8.8 works but this fails = DNS issue.
+
+nslookup google.com
+→ Tests DNS resolution.
+→ Shows DNS server + returned IP.
+
+tracert google.com
+→ Traces route/hops to destination.
+→ Shows where connectivity may stop.
+
+netstat -an
+→ Shows active connections + listening ports.
+→ Check for HTTPS (443) connections.
