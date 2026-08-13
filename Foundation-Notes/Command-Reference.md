@@ -71,3 +71,56 @@ tracert google.com
 netstat -an
 → Shows active connections + listening ports.
 → Check for HTTPS (443) connections.
+
+
+# [Identity and User Lifecycles(Microsoft.Graph via PowerShell)]
+
+## Authentication
+Connect-MgGraph -Scopes "User.ReadWrite.All","Directory.ReadWrite.All","LicenseAssignment.ReadWrite.All" -UseDeviceAuthentication
+Get-MgContext
+
+## Modules
+Get-InstalledModule Microsoft.Graph*
+Import-Module Microsoft.Graph.Authentication
+
+## Users
+Get-MgUser -All
+Get-MgUser -UserId "user@tenant.onmicrosoft.com"
+New-MgUser
+Update-MgUser
+Remove-MgUser
+
+## User properties
+Get-MgUser `
+    -UserId "user@tenant.onmicrosoft.com" `
+    -Property "displayName,userPrincipalName,department,accountEnabled"
+
+## Licensing
+
+List licenses your tenant owns:
+
+Get-MgSubscribedSku -All
+
+Find E5:
+
+$e5Sku = Get-MgSubscribedSku -All |
+    Where-Object SkuPartNumber -eq "SPE_E5"
+
+Assign license:
+
+Set-MgUserLicense `
+    -UserId "user@tenant.onmicrosoft.com" `
+    -AddLicenses @(@{SkuId = $e5Sku.SkuId}) `
+    -RemoveLicenses @()
+
+Check user's licenses:
+
+Get-MgUserLicenseDetail `
+    -UserId "user@tenant.onmicrosoft.com"
+
+Remove a license:
+
+Set-MgUserLicense `
+    -UserId "user@tenant.onmicrosoft.com" `
+    -AddLicenses @() `
+    -RemoveLicenses @($e5Sku.SkuId)
