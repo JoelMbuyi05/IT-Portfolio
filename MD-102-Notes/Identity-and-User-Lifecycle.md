@@ -130,6 +130,13 @@ PowerShell and Microsoft Graph are especially useful when many users need to be 
 
 ---
 
+## Defend Question
+
+Question: A new employee starts Monday. Walk me through creating their account and getting them access to Microsoft 365.
+
+Answer:
+First, I would confirm the employee's details and what access they need, including their department, role and required Microsoft 365 license. Then I would create the user account in Microsoft Entra ID or the Microsoft 365 admin center, using the correct UPN and account information. I would assign the appropriate Microsoft 365 license, add the user to the required groups, and verify that the account is enabled. Finally, I would confirm the user can sign in and access the services they need. If there are many new employees, I could use Microsoft Graph PowerShell to automate the repetitive parts of the process.
+
 ## Wrong Answers From Practice Questions
 
 **Q:** [Paste the question you got wrong]
