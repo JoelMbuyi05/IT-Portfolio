@@ -1,4 +1,4 @@
-# Lab 013 — DNS Break Fix Advanced
+# Lab 005 — DNS Break Fix Advanced
 
 Date: 8/15/2026
 Day: 05 of 30-day MD-102 plan

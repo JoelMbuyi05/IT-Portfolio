@@ -1,4 +1,4 @@
-# Lab 012 — Static IP Configuration and Network Troubleshooting
+# Lab 004 — Static IP Configuration and Network Troubleshooting
 
 **Date:** 8/15/2026
 **Day:** 04 of 30-day MD-102 plan
