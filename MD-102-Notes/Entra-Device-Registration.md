@@ -1,6 +1,6 @@
 # Day 06 — Entra ID Device Registration
 
-Date: 15 August 2026
+Date: 13 August 2026
 Source: Microsoft Learn — "Manage device registration in Microsoft Entra"
 
 ==================================================
