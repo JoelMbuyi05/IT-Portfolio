@@ -235,8 +235,6 @@ POLICY SUMMARY
 WHAT BROKE
 ==================================================
 
-[Record anything that actually went wrong.]
-
 Examples:
 
 - Policy did not apply.
@@ -250,8 +248,6 @@ Examples:
 ==================================================
 HOW I FIXED IT
 ==================================================
-
-[Record the actual fix.]
 
 Possible troubleshooting steps:
 
