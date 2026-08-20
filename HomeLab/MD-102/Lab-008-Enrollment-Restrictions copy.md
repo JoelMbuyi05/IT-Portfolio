@@ -1,4 +1,4 @@
-# Lab 017 — Intune Enrollment Scopes and Restrictions
+# Lab 008 — Intune Enrollment Scopes and Restrictions
 
 Date: 16 August 2026
 Day: 09 of 30-day MD-102 plan
