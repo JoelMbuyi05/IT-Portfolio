@@ -1,4 +1,4 @@
-# Lab 022 — Wi-Fi and Network Profile Push
+# Lab 014 — Wi-Fi and Network Profile Push
 
 Date: 23 August 2026
 Day: 16 of 30-day MD-102 plan
