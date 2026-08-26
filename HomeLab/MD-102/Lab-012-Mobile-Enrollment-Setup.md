@@ -1,7 +1,6 @@
 # Lab 012 — Mobile Enrollment Setup
 
 Date: 20 August 2026
-Duration: [actual time spent]
 Day: 13 of 30-day MD-102 plan
 
 ==================================================
@@ -79,10 +78,6 @@ Purpose:
 The connection allows Intune to manage Android Enterprise
 applications and enrollment.
 
-Result:
-
-[Record whether the connection was completed.]
-
 If completed:
 
 Managed Google Play:
@@ -118,10 +113,6 @@ allowing corporate-owned mobile devices.
 
 This would be useful for an organisation that wants to prevent
 BYOD while still supporting company-issued phones.
-
-Result:
-
-[Record result.]
 
 ==================================================
 TASK 4 — CREATE CORPORATE WI-FI PROFILE
@@ -169,15 +160,9 @@ Assigned the profile to:
 All Devices
 → iOS/iPadOS devices
 
-Result:
-
-[Record result.]
-
 ==================================================
 WHAT BROKE
 ==================================================
-
-[Record anything that actually failed.]
 
 Possible limitations:
 
@@ -198,27 +183,6 @@ where the physical platform/account was unavailable.
 The objective was to understand how Intune handles mobile
 enrollment rather than pretending that an unsupported device
 was successfully enrolled.
-
-==================================================
-SCREENSHOTS
-==================================================
-
-Save screenshots in:
-
-HomeLab/screenshots/Day-13/
-
-Recommended screenshots:
-
-1. Apple enrollment page
-2. Apple MDM Push certificate configuration
-3. Android enrollment page
-4. Managed Google Play setup
-5. Enrollment restriction
-6. Personally owned = Block
-7. Corporate owned = Allow
-8. iOS/iPadOS Wi-Fi profile
-9. XYZ-Corporate SSID configuration
-10. Profile assignment
 
 ==================================================
 LESSONS LEARNED
