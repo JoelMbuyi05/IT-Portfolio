@@ -11,8 +11,10 @@
 ## Certification Progress
 
 | 🔄 In Progress | Microsoft MD-102 — Endpoint Administrator |
+| 🔄 In Progress | Microsoft AZ-900 — Azure Fundamentals |
 | 📅 Planned | Microsoft AZ-104 — Azure Administrator |
 | 📅 Planned | Microsoft SC-300 — Identity Administrator |
+| 📅 Planned | Microsoft AZ-305 —  | Azure Solutions Architect Excerpt |
 
 ---
 
@@ -21,7 +23,7 @@
 | Folder | What's inside |
 |---|---|
 | [MD-102-Notes](./MD-102-Notes) | Study notes per exam topic |
-| [AZ-104-Notes](./AZ-104-Notes) | Azure study notes — in progress |
+| [AZ-900-Notes](./AZ-900-Notes) | Azure study notes — in progress |
 | [Foundation-Notes](./Foundation-Notes) | AD, networking, PowerShell, Windows |
 | [HomeLab](./HomeLab) | Step-by-step lab documentation with screenshots |
 | [Troubleshooting-Journal](./Troubleshooting-Journal) | Break/fix scenarios with root cause analysis |
