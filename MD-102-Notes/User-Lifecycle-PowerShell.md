@@ -132,17 +132,42 @@ PowerShell and Microsoft Graph are especially useful when many users need to be 
 
 ## Defend Question
 
-Question: A new employee starts Monday. Walk me through creating their account and getting them access to Microsoft 365.
+If an interviewer asks:
 
-Answer:
-First, I would confirm the employee's details and what access they need, including their department, role and required Microsoft 365 license. Then I would create the user account in Microsoft Entra ID or the Microsoft 365 admin center, using the correct UPN and account information. I would assign the appropriate Microsoft 365 license, add the user to the required groups, and verify that the account is enabled. Finally, I would confirm the user can sign in and access the services they need. If there are many new employees, I could use Microsoft Graph PowerShell to automate the repetitive parts of the process.
+"How would you onboard a new employee in Microsoft 365?"
+
+A strong short answer would be:
+
+"I'd create the user's Entra ID account, configure the required attributes and UPN, assign the appropriate license, verify the account, and then make sure the user can receive the required device and security policies through Intune."
 
 ## Wrong Answers From Practice Questions
 
-**Q:** [Paste the question you got wrong]
+1. What problem does Microsoft Entra ID solve?
+Answer: It manages user identities, authentication, and access to Microsoft/cloud resources.
 
-**Correct answer:** [Answer]
+2. What is a UPN?
+Answer: The user's sign-in name, usually formatted like an email address.
 
-**Why I got it wrong:** [Your honest reason]
+3. Is a UPN necessarily the same as an email address?
+Answer: No. They can be the same, but they serve different purposes.
 
-**What I now know:** [Correct understanding]
+4. What is the purpose of the .onmicrosoft.com domain?
+Answer: It's the default domain created with a Microsoft 365 tenant and can be used for user identities.
+
+5. What's the difference between creating one user manually and bulk provisioning users?
+Answer: Manual creation is suitable for a few users; bulk provisioning automates creating many users.
+
+6. Why would an administrator use PowerShell/Microsoft Graph?
+Answer: To automate and efficiently manage users and other Microsoft resources at scale.
+
+7. What does assigning a license accomplish?
+Answer: It gives the user access to the services and features included in that license.
+
+8. Why can a user exist in Entra but still not have access to a particular service?
+Answer: Because the user may not have the required license, permissions, or access policy.
+
+9. How would you verify that a user was successfully created?
+Answer: Check the user in the Entra admin center or query the account using Microsoft Graph/PowerShell.
+
+10. If a user can't access something they should have access to, what are the first things you'd investigate?
+Answer: Check the user's account status, license, permissions, and applicable access policies.
