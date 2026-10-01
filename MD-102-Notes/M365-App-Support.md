@@ -98,16 +98,49 @@ This gives me a structured troubleshooting approach instead of immediately reins
 
 "A user says they can't access their SharePoint site. What do you check first?"
 
-Answer out loud: Check if they have a Microsoft 365 license assigned in Entra ID — no license means no access. Then check if they've been added to the SharePoint site with appropriate permissions. Then check if a Conditional Access policy is blocking their sign-in — look at their sign-in logs in Entra ID.
+Answer out loud: First I'd determine whether they can authenticate to Microsoft 365. Then I'd check their SharePoint permissions and licensing, and finally check Conditional Access or other policies that could be blocking access.
 
 ---
 
-## Wrong Answers From Practice Questions
+## Questions + short answers
 
-**Q:** [Paste the question you got wrong]
+1. What is Exchange Online?
 
-**Correct answer:** [Answer]
+Answer: Microsoft's cloud-based email and mailbox service.
 
-**Why I got it wrong:** [Your honest reason]
+2. What is SharePoint Online?
 
-**What I now know:** [Correct understanding]
+Answer: Microsoft's service for organizational sites, documents, and collaboration content.
+
+3. What is Teams?
+
+Answer: Microsoft's collaboration platform for chat, meetings, calls, and teamwork.
+
+4. What is OneDrive?
+
+Answer: Personal cloud storage for a user's work files.
+
+5. Does having a Microsoft 365 license automatically give a user access to every SharePoint site?
+
+Answer: No. They also need appropriate permissions to the site/content.
+
+6. What is the difference between licensing and permissions?
+
+Answer: Licensing provides entitlement to services; permissions determine what the user can access within those services.
+
+7. A user can't access a SharePoint site. What do you check?
+
+Answer: Check authentication, licensing, SharePoint permissions, and Conditional Access/policies.
+
+8. A user can't access email. What do you check?
+
+Answer: Check the account, license, mailbox, authentication, and whether the issue is Outlook or Exchange.
+
+9. Why test Outlook on the web?
+
+Answer: It helps determine whether the problem is with the mailbox/service or the local Outlook client.
+
+10. Why is this relevant to endpoint administration?
+
+Answer: Endpoint admins manage the devices users use to access these Microsoft 365 services.
+
