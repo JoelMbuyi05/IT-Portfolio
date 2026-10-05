@@ -229,20 +229,50 @@ to inspect and clear the local DNS cache.
 
 ## Defend Question — Answer Out Loud
 
-**Question:** A user says they have Internet access by IP address but websites do not open by name. What would you check?
+"A user can access websites by IP address but not by name. What would you check?"
 
-**Answer:**
-
-First, I would confirm that the device has a valid IP configuration and can reach an Internet IP such as `8.8.8.8`. If that works, I would suspect DNS. I would run `nslookup google.com` to test DNS resolution and check which DNS server the computer is using. I could also use `ipconfig /displaydns` to inspect the cache and `ipconfig /flushdns` to clear potentially stale DNS information. If necessary, I would compare the result against a known public DNS server such as `8.8.8.8`.
+"I'd suspect DNS. I'd check the configured DNS server and use nslookup to test name resolution. I'd also check the local DNS cache and flush it if necessary."
 
 ---
 
 ## Wrong Answers From Practice Questions
 
-**Q:** [Paste question]
+1. What is the difference between DHCP and DNS?
 
-**Correct answer:** [Answer]
+Answer: DHCP provides network configuration; DNS resolves names to IP addresses.
 
-**Why I got it wrong:** [Reason]
+2. What does ipconfig /displaydns do?
 
-**What I now know:** [Correct understanding]
+Answer: Shows the computer's local DNS cache.
+
+3. What does ipconfig /flushdns do?
+
+Answer: Clears the local DNS cache.
+
+4. What does nslookup do?
+
+Answer: Tests DNS name resolution.
+
+5. What is an A record?
+
+Answer: Maps a hostname to an IPv4 address.
+
+6. What is a CNAME record?
+
+Answer: Creates an alias for another hostname.
+
+7. What is an MX record?
+
+Answer: Identifies the mail servers responsible for a domain.
+
+8. What is the difference between internal and external DNS?
+
+Answer: Internal DNS resolves organizational resources; external DNS resolves public resources.
+
+9. A user can ping 8.8.8.8 but can't access google.com. What do you suspect?
+
+Answer: A DNS resolution problem.
+
+10. What port does DNS commonly use?
+
+Answer: UDP 53, with TCP 53 also used in some cases.
