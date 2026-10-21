@@ -1,4 +1,4 @@
-# IT-Endpoint-Portfolio
+# IT-Portfolio
 
 > Documentation of my hands-on IT lab work covering
 > Microsoft Intune, Entra ID, Active Directory, and
